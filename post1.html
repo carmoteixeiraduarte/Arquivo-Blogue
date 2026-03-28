@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Um mundo de cocktails | Arquivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="post-page">
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navegação principal">
+        <a class="brand" href="index.html#topo" aria-label="Voltar à página inicial">
+          <!-- Substitua o ficheiro abaixo se quiser trocar o logotipo -->
+          <img
+            src="assets/images/transparente-logo.png"
+            alt="Arquivo Blogue"
+            class="brand-logo"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="menu-principal">
+          <a class="nav-chip is-clipped" href="index.html#arquivo-posts"><span>Posts</span></a>
+          <a class="nav-chip" href="index.html#topo"><span>Página Inicial</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo" class="post-layout">
+      <section class="post-scene container">
+        <aside class="post-decor post-decor-left" aria-hidden="true">
+          <!-- Imagens decorativas da esquerda: duplicar ou remover qualquer bloco <figure class="polaroid decor-image ..."> -->
+          <figure class="polaroid decor-image tilt-left">
+            <img src="assets/images/post-cover-4.svg" alt="" />
+          </figure>
+          <figure class="polaroid decor-image tilt-soft-right">
+            <img src="assets/images/post-cover-2.svg" alt="" />
+          </figure>
+          <figure class="polaroid decor-image tilt-soft-left">
+            <img src="assets/images/post-cover-5.svg" alt="" />
+          </figure>
+        </aside>
+
+        <article class="post-article">
+          <!-- Conteudo editavel do post -->
+          <!-- Categoria -->
+          <p class="post-meta post-meta-article">Reflexões</p>
+
+          <!-- Titulo -->
+          <h1>Um mundo de cocktails</h1>
+
+          <!-- Imagem principal -->
+          <figure class="post-cover">
+            <img
+              src="assets/images/post-cover-1.svg"
+              alt="Capa do post Um mundo de cocktails"
+            />
+          </figure>
+
+          <!-- Paragrafos do post -->
+          <div class="post-body">
+            <p>
+              Há passatempos que vão e voltam. O meu, curiosamente, é fazer
+              cocktails.
+            </p>
+            <p>
+              Tudo começou em 2023, quando ofereci um shaker ao meu irmão. Ele
+              achou piada, eu levei a sério. Acabei por me apropriar do shaker e,
+              pouco tempo depois, por gastar mais do que devia da minha mesada em
+              bebidas alcoólicas que nem imaginava serem tão caras.
+            </p>
+            <p>
+              E foi assim, sem grande cerimónia, que começou o meu gosto por
+              cocktails.
+            </p>
+            <p>
+              Desde então, tenho experimentado alguns um pouco por todo o mundo
+              e, claro, tentado recriá-los em casa. O que partilho aqui é
+              precisamente isso: uma mistura de descobertas e tentativas
+              assumidamente amadoras, mas feitas com entusiasmo.
+            </p>
+            <p>
+              Quick disclaimer: todas as medidas estão em onças. Pode parecer
+              estranho ao início, mas com um jigger torna-se muito mais simples.
+              E, na ausência de um: 1 oz ≈ 30 ml.
+            </p>
+          </div>
+
+          <!-- Texto do botao -->
+          <a class="back-link" href="index.html#arquivo-posts">Voltar</a>
+        </article>
+
+        <aside class="post-decor post-decor-right" aria-hidden="true">
+          <!-- Imagens decorativas da direita: duplicar ou remover qualquer bloco <figure class="polaroid decor-image ..."> -->
+          <figure class="polaroid decor-image tilt-right">
+            <img src="assets/images/post-cover-6.svg" alt="" />
+          </figure>
+          <figure class="polaroid decor-image tilt-soft-left">
+            <img src="assets/images/post-cover-3.svg" alt="" />
+          </figure>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

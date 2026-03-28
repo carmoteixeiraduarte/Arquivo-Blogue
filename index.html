@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arquivo | Blog Pessoal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="home-page">
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+    <header class="site-header" id="topo">
+      <nav class="navbar container" aria-label="Navegação principal">
+        <a class="brand" href="#topo" aria-label="Voltar ao topo da página">
+          <!-- Substitua o ficheiro abaixo se quiser trocar o logotipo -->
+          <img
+            src="assets/images/transparente-logo.png"
+            alt="Arquivo Blogue"
+            class="brand-logo"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="menu-principal">
+          <a class="nav-chip is-clipped" href="#arquivo-posts"><span>Posts</span></a>
+          <a class="nav-chip" href="#topo"><span>Página Inicial</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero-section" aria-label="Imagem principal do blog">
+        <!-- Substitua o ficheiro abaixo apenas se quiser trocar a imagem principal -->
+        <img
+          src="assets/images/hero-arquivo.png"
+          alt="Colagem editorial do blog Arquivo"
+          class="hero-image"
+        />
+      </section>
+
+      <section class="archive-section arquivo-posts" id="arquivo-posts">
+        <div class="container archive-shell">
+          <div class="section-heading">
+          </div>
+
+          <div class="posts-grid">
+            <a class="post-card" href="post1.html">
+              <div class="post-card-media">
+                <!-- Substitua esta imagem pela capa do post -->
+                <img
+                  src="assets/images/post-cover-1.svg"
+                  alt="Capa do post Caderno de Março"
+                />
+              </div>
+              <div class="post-card-content">
+                <!-- Substitua o título do post aqui -->
+                <p class="post-meta">Reflexões</p>
+                <h2>Caderno de Março</h2>
+                <p>
+                  Um registo de dias lentos, páginas rabiscadas e rituais que
+                  voltaram a fazer sentido.
+                </p>
+                <span class="post-link">Ler mais</span>
+              </div>
+            </a>
+
+            <a class="post-card" href="post2.html">
+              <div class="post-card-media">
+                <!-- Substitua esta imagem pela capa do post -->
+                <img
+                  src="assets/images/post-cover-2.svg"
+                  alt="Capa do post Lugares que Guardei"
+                />
+              </div>
+              <div class="post-card-content">
+                <p class="post-meta">Viagens</p>
+                <h2>Lugares que Guardei</h2>
+                <p>
+                  Memórias de paisagens, luz dourada ao fim da tarde e recortes
+                  de um verão muito querido.
+                </p>
+                <span class="post-link">Ler mais</span>
+              </div>
+            </a>
+
+            <a class="post-card" href="post3.html">
+              <div class="post-card-media">
+                <!-- Substitua esta imagem pela capa do post -->
+                <img
+                  src="assets/images/post-cover-3.svg"
+                  alt="Capa do post Cartas para Mim"
+                />
+              </div>
+              <div class="post-card-content">
+                <p class="post-meta">Pessoal</p>
+                <h2>Cartas para Mim</h2>
+                <p>
+                  Notas íntimas sobre crescimento, silêncio criativo e a beleza
+                  de recomeçar com calma.
+                </p>
+                <span class="post-link">Ler mais</span>
+              </div>
+            </a>
+
+            <a class="post-card" href="post4.html">
+              <div class="post-card-media">
+                <!-- Substitua esta imagem pela capa do post -->
+                <img
+                  src="assets/images/post-cover-4.svg"
+                  alt="Capa do post Domingos Lentos"
+                />
+              </div>
+              <div class="post-card-content">
+                <p class="post-meta">Cotidiano</p>
+                <h2>Domingos Lentos</h2>
+                <p>
+                  Uma coleção de pequenos rituais, luz suave na cozinha e horas
+                  que pedem menos pressa.
+                </p>
+                <span class="post-link">Ler mais</span>
+              </div>
+            </a>
+
+            <a class="post-card" href="post5.html">
+              <div class="post-card-media">
+                <!-- Substitua esta imagem pela capa do post -->
+                <img
+                  src="assets/images/post-cover-5.svg"
+                  alt="Capa do post Listas de Agosto"
+                />
+              </div>
+              <div class="post-card-content">
+                <p class="post-meta">Notas</p>
+                <h2>Listas de Agosto</h2>
+                <p>
+                  Ideias soltas, leituras queridas e intenções discretas para
+                  atravessar o mês com ternura.
+                </p>
+                <span class="post-link">Ler mais</span>
+              </div>
+            </a>
+
+            <a class="post-card" href="post6.html">
+              <div class="post-card-media">
+                <!-- Substitua esta imagem pela capa do post -->
+                <img
+                  src="assets/images/post-cover-6.svg"
+                  alt="Capa do post Entre Mar e Serra"
+                />
+              </div>
+              <div class="post-card-content">
+                <p class="post-meta">Paisagens</p>
+                <h2>Entre Mar e Serra</h2>
+                <p>
+                  Um caderno visual sobre contrastes, ar salgado, caminhos altos
+                  e o silêncio bom do fim do dia.
+                </p>
+                <span class="post-link">Ler mais</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

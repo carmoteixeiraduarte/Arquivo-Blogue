@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entre Mar e Serra | Arquivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="post-page">
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navegação principal">
+        <a class="brand" href="index.html#topo" aria-label="Voltar à página inicial">
+          <!-- Substitua o ficheiro abaixo se quiser trocar o logotipo -->
+          <img
+            src="assets/images/transparente-logo.png"
+            alt="Arquivo Blogue"
+            class="brand-logo"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="menu-principal">
+          <a class="nav-chip is-clipped" href="index.html#arquivo-posts"><span>Posts</span></a>
+          <a class="nav-chip" href="index.html#topo"><span>Página Inicial</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo" class="post-layout">
+      <section class="post-scene container">
+        <aside class="post-decor post-decor-left" aria-hidden="true">
+          <!-- Imagens decorativas da esquerda: duplicar ou remover qualquer bloco <figure class="polaroid decor-image ..."> -->
+          <figure class="polaroid decor-image tilt-left">
+            <img src="assets/images/post-cover-5.svg" alt="" />
+          </figure>
+          <figure class="polaroid decor-image tilt-soft-right">
+            <img src="assets/images/post-cover-1.svg" alt="" />
+          </figure>
+          <figure class="polaroid decor-image tilt-soft-left">
+            <img src="assets/images/post-cover-4.svg" alt="" />
+          </figure>
+        </aside>
+
+        <article class="post-article">
+          <!-- Conteudo editavel do post -->
+          <!-- Categoria -->
+          <p class="post-meta post-meta-article">Paisagens</p>
+
+          <!-- Titulo -->
+          <h1>Entre Mar e Serra</h1>
+
+          <!-- Imagem principal -->
+          <figure class="post-cover">
+            <img
+              src="assets/images/post-cover-6.svg"
+              alt="Capa do post Entre Mar e Serra"
+            />
+          </figure>
+
+          <!-- Paragrafos do post -->
+          <div class="post-body">
+            <p>
+              Há dias em que só o contraste me faz sentido: a imensidão aberta do
+              mar e a quietude firme da serra, o vento salgado e o cheiro seco das
+              folhas ao fim da tarde.
+            </p>
+            <p>
+              Caminhar entre estes dois cenários faz-me sentir mais atenta, como
+              se cada mudança de luz reorganizasse também os pensamentos. Levo
+              sempre comigo a sensação de que certos lugares sabem exatamente como
+              nos devolver ao corpo.
+            </p>
+            <p>
+              Este registo nasce desse trânsito entre horizontes, onde a paisagem
+              não serve apenas de fundo, mas de companhia silenciosa para o que vai
+              amadurecendo dentro de mim.
+            </p>
+          </div>
+
+          <!-- Texto do botao -->
+          <a class="back-link" href="index.html#arquivo-posts">Voltar</a>
+        </article>
+
+        <aside class="post-decor post-decor-right" aria-hidden="true">
+          <!-- Imagens decorativas da direita: duplicar ou remover qualquer bloco <figure class="polaroid decor-image ..."> -->
+          <figure class="polaroid decor-image tilt-right">
+            <img src="assets/images/post-cover-2.svg" alt="" />
+          </figure>
+          <figure class="polaroid decor-image tilt-soft-left">
+            <img src="assets/images/post-cover-3.svg" alt="" />
+          </figure>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
