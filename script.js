@@ -40,7 +40,7 @@ window.addEventListener("resize", () => {
   }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+document.querySelectorAll('a[href^="#"]:not(#botao-topo)').forEach((anchor) => {
   anchor.addEventListener("click", (event) => {
     const targetId = anchor.getAttribute("href");
     const targetElement = targetId ? document.querySelector(targetId) : null;
@@ -59,3 +59,15 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
+
+const botaoTopo = document.getElementById("botao-topo");
+
+if (botaoTopo) {
+  botaoTopo.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+}
