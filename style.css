@@ -29,6 +29,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#topo {
+  scroll-margin-top: var(--navbar-height);
+}
+
 body {
   margin: 0;
   min-width: 320px;
