@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="post-page">
+  <body class="post-page cocktail-post">
     <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
 
     <header class="site-header">
@@ -46,23 +46,10 @@
 
     <main id="conteudo" class="post-layout">
       <section class="post-scene container">
-        <aside class="post-decor post-decor-left" aria-hidden="true">
-          <!-- Imagens decorativas da esquerda: duplicar ou remover qualquer bloco <figure class="polaroid decor-image ..."> -->
-          <figure class="polaroid decor-image tilt-left">
-            <img src="assets/images/post-cover-4.svg" alt="" />
-          </figure>
-          <figure class="polaroid decor-image tilt-soft-right">
-            <img src="assets/images/post-cover-2.svg" alt="" />
-          </figure>
-          <figure class="polaroid decor-image tilt-soft-left">
-            <img src="assets/images/post-cover-5.svg" alt="" />
-          </figure>
-        </aside>
-
         <article class="post-article">
           <!-- Conteudo editavel do post -->
           <!-- Categoria -->
-          <p class="post-meta post-meta-article">Reflexões</p>
+          <p class="post-meta post-meta-article">Cocktails</p>
 
           <!-- Titulo -->
           <h1>Um mundo de cocktails</h1>
@@ -70,53 +57,268 @@
           <!-- Imagem principal -->
           <figure class="post-cover">
             <img
-              src="assets/images/post-cover-1.svg"
+              src="assets/images/post-cover-1.jpg"
               alt="Capa do post Um mundo de cocktails"
             />
           </figure>
 
           <!-- Paragrafos do post -->
           <div class="post-body">
-            <p>
-              Há passatempos que vão e voltam. O meu, curiosamente, é fazer
-              cocktails.
-            </p>
-            <p>
-              Tudo começou em 2023, quando ofereci um shaker ao meu irmão. Ele
-              achou piada, eu levei a sério. Acabei por me apropriar do shaker e,
-              pouco tempo depois, por gastar mais do que devia da minha mesada em
-              bebidas alcoólicas que nem imaginava serem tão caras.
-            </p>
-            <p>
-              E foi assim, sem grande cerimónia, que começou o meu gosto por
-              cocktails.
-            </p>
-            <p>
-              Desde então, tenho experimentado alguns um pouco por todo o mundo
-              e, claro, tentado recriá-los em casa. O que partilho aqui é
-              precisamente isso: uma mistura de descobertas e tentativas
-              assumidamente amadoras, mas feitas com entusiasmo.
-            </p>
-            <p>
-              Quick disclaimer: todas as medidas estão em onças. Pode parecer
-              estranho ao início, mas com um jigger torna-se muito mais simples.
-              E, na ausência de um: 1 oz ≈ 30 ml.
-            </p>
+            <section class="post-intro" aria-label="Introdução">
+              <p>
+                Há passatempos que vão e voltam. O meu, curiosamente, é fazer cocktails.
+              </p>
+              <p>
+                Em 2023, ofereci um shaker ao meu irmão, mas acabei por ser eu a levar
+                o hobby a sério.
+              </p>
+              <p>
+                Desde então, tenho experimentado alguns um pouco por todo o mundo e,
+                claro, tentado recriá-los em casa. O que partilho aqui é precisamente
+                isso: uma mistura de descobertas e tentativas (assumidamente
+                amadoras), mas feitas com entusiasmo.
+              </p>
+              <p>
+                Quick disclaimer: todas as medidas estão em Onzes. Pode parecer
+                estranho ao início, mas com um jigger torna-se muito mais simples. E,
+                na ausência de um: 1 oz ≈ 30 ml.
+              </p>
+            </section>
+
+            <section class="recipes-section" aria-label="Receitas">
+              <div class="post-section-divider" aria-hidden="true">
+                <span>Receitas</span>
+              </div>
+
+              <section class="recipe-card">
+                <div class="recipe-card-copy">
+                  <h2>1. Margarita, “My Fav”</h2>
+                  <p>
+                    A Margarita foi o primeiro cocktail que aprendi a fazer e, até hoje,
+                    continua a ser o meu go-to. É leve, equilibrada e, acima de tudo,
+                    fácil de acertar.
+                  </p>
+                  <p><strong>Ingredientes:</strong></p>
+                  <ul>
+                    <li>¾ oz de sumo de lima</li>
+                    <li>
+                      ¼ oz de adoçante líquido (supostamente deveria ser simple syrup,
+                      contudo não percebo o que será o equivalente em Portugal. Se
+                      souberem, let me know!)
+                    </li>
+                    <li>¾ oz de triple sec (comprem Cointreau, vale a pena)</li>
+                    <li>1 + ½ oz de tequila</li>
+                  </ul>
+                  <p><strong>Modo de Preparação:</strong></p>
+                  <ul>
+                    <li>Meter tudo no shaker com bastante gelo</li>
+                    <li>Shake, shake, shake</li>
+                    <li>
+                      Para um resultado mais “profissional” (e sem esforço), passem a
+                      borda do copo por água e depois por sal grosso
+                    </li>
+                    <li>Servir e está feito!</li>
+                  </ul>
+                  <p>Simples, rápida e sempre um sucesso.</p>
+                </div>
+                <figure class="recipe-photo recipe-photo-portrait">
+                  <img
+                    src="assets/images/Um mundo de Cocktails/Margarita.png"
+                    alt="Margarita"
+                  />
+                </figure>
+              </section>
+
+              <section class="recipe-card recipe-card-reverse">
+                <figure class="recipe-photo recipe-photo-wide">
+                  <img
+                    src="assets/images/Um mundo de Cocktails/Cosmopolitana.png"
+                    alt="Cosmopolitana"
+                  />
+                </figure>
+                <div class="recipe-card-copy">
+                  <h2>2. Cosmopolitana, “Main character”</h2>
+                  <p>A Cosmopolitana não precisa de grande apresentação. Quem sabe, sabe!</p>
+                  <p><strong>Ingredientes:</strong></p>
+                  <ul>
+                    <li>1 ½ oz de vodka (pessoalmente, prefiro tequila… e funciona igualmente bem)</li>
+                    <li>¾ oz de Cointreau</li>
+                    <li>½ oz de sumo de lima</li>
+                    <li>½ oz de sumo de frutos vermelhos (cranberry juice)</li>
+                    <li>1 tsp de adoçante líquido</li>
+                  </ul>
+                  <p><strong>Modo de Preparação:</strong></p>
+                  <ul>
+                    <li>Meter tudo no shaker com bastante gelo</li>
+                    <li>Shake até doerem os braços</li>
+                    <li>E servir!</li>
+                  </ul>
+                  <p>Tal como a série, é um clássico que facilmente se torna um hábito.</p>
+                </div>
+              </section>
+
+              <section class="recipe-card">
+                <div class="recipe-card-copy">
+                  <h2>3. Kungfu Pandan, “Vacation in a drink”</h2>
+                  <p>
+                    Descobri este cocktail em Melbourne numa noite em que estava indecisa
+                    entre várias opções, até ver no menu: “Kungfu Pandan — A vacation in
+                    a drink”. Foi o suficiente.
+                  </p>
+                  <p>
+                    Quando era pequena chamavam-me “panda do kung fu”... Esta memória foi
+                    o critério decisivo.
+                  </p>
+                  <p>
+                    O resultado surpreendeu: um cocktail que sabia literalmente a um
+                    batido de banana premium. Vinha ainda decorado com folhas de bambu —
+                    detalhe desnecessário, mas achei muito original.
+                  </p>
+                  <p>
+                    Quanto à receita, após alguma conversa com a bartender e várias
+                    tentativas em casa, esta foi a melhor aproximação que consegui:
+                  </p>
+                  <p><strong>Ingredientes:</strong></p>
+                  <ul>
+                    <li>1 ½ oz de Havana Especial</li>
+                    <li>¾ oz de Massenez Pandan Liqueur</li>
+                    <li>¼ oz de Yellow Chartreuse</li>
+                    <li>¾ oz de Giffard Brazilian Banana Liqueur</li>
+                    <li>1 dash de absinto (cuidado!)</li>
+                    <li>¼ oz de adoçante liquído</li>
+                    <li>½ oz de Coco Lopez</li>
+                    <li>1 oz de sumo de ananás</li>
+                    <li>¾ oz de sumo de lima</li>
+                  </ul>
+                  <p><strong>Modo de Preparação:</strong></p>
+                  <ul>
+                    <li>Colocar todos os ingredientes no shaker</li>
+                    <li>Adicionar bastante gelo</li>
+                    <li>Shake, shake, shake</li>
+                    <li>Coar (idealmente com double strain) para um copo alto com gelo</li>
+                    <li>Decorar com folhas de bambu (essencial para se perceber a referência ao panda!)</li>
+                  </ul>
+                  <p>
+                    Apesar de não saber exatamente como a bartender fez, isto chega
+                    suficientemente perto.
+                  </p>
+                </div>
+                <figure class="recipe-photo recipe-photo-portrait">
+                  <img
+                    src="assets/images/Um mundo de Cocktails/Kungfu Pandan, “Vacation in a drink”.jpg"
+                    alt="Kungfu Pandan"
+                  />
+                </figure>
+              </section>
+
+              <section class="recipe-card recipe-card-reverse">
+                <figure class="recipe-photo recipe-photo-portrait">
+                  <img
+                    src="assets/images/Um mundo de Cocktails/Caipirinha.png"
+                    alt="Caipirinha"
+                  />
+                </figure>
+                <div class="recipe-card-copy">
+                  <h2>4. “A” Caipirinha</h2>
+                  <p>
+                    Uma caipirinha sabe sempre bem, embora dê mais trabalho do que uma
+                    margarita. Mas, sendo a favorita da minha mãe, acaba por voltar à
+                    rotação cá de casa com alguma frequência.
+                  </p>
+                  <p><strong>Ingredientes:</strong></p>
+                  <ul>
+                    <li>2 oz de cachaça</li>
+                    <li>2 limas (cortadas em gomos, sem a casca)</li>
+                    <li>¾ oz de adoçante líquido</li>
+                    <li>1 rodela de lima</li>
+                  </ul>
+                  <p>
+                    <strong>Nota:</strong> A receita clássica leva açúcar, mas eu uso
+                    adoçante liquído — é mais prático e fica mais homogéneo. As limas,
+                    essas, esmago sempre.
+                  </p>
+                  <p><strong>Modo de Preparação:</strong></p>
+                  <ul>
+                    <li>Colocar as limas no copo e esmagar ligeiramente</li>
+                    <li>Adicionar o adoçante</li>
+                    <li>Juntar a cachaça</li>
+                    <li>Adicionar gelo</li>
+                    <li>Misturar tudo</li>
+                    <li>Finalizar com uma rodela de lima</li>
+                  </ul>
+                  <p>E pronto — dá mais trabalho, mas, pela minha mãe, compensa sempre.</p>
+                </div>
+              </section>
+
+              <section class="recipe-card">
+                <div class="recipe-card-copy">
+                  <h2>5. Cage Diver, “Seas the Day”</h2>
+                  <p>
+                    Provei este cocktail no aeroporto de Phoenix, durante uma escala a
+                    meio da minha road trip pelos EUA — porque, honestamente, o que mais
+                    se faz num aeroporto durante uma longa espera?
+                  </p>
+                  <p>
+                    Era verão e achei graça à frase “Seas the Day”. Foi o suficiente.
+                  </p>
+                  <p>
+                    Não estava à espera de grande coisa (é um cocktail de aeroporto,
+                    afinal), mas acabou por surpreender — fresco, equilibrado, mas doce
+                    sem se tornar enjoativo!
+                  </p>
+                  <p><strong>Ingredientes:</strong></p>
+                  <ul>
+                    <li>1 1/2 oz de tequila (Tres Agaves blanco)</li>
+                    <li>3/4 oz de Licor 43</li>
+                    <li>1/3 oz de agave nectar</li>
+                    <li>1 oz de sumo de grapefruit</li>
+                    <li>1/2 oz de sumo de lima</li>
+                    <li>1/2 oz de sumo de cranberry</li>
+                    <li>Black lava salt (simplificando, uso apenas sal)</li>
+                    <li>Gelo</li>
+                  </ul>
+                  <p><strong>Modo de Preparação:</strong></p>
+                  <ul>
+                    <li>Colocar todos os ingredientes no shaker com gelo</li>
+                    <li>Agitar bem</li>
+                    <li>Passar uma rodela de lima na borda de um copo baixo e envolver em Sal</li>
+                    <li>Coar a bebida para o copo com gelo</li>
+                  </ul>
+                  <p>E pronto, inesperadamente bom para um cocktail de aeroporto!</p>
+                </div>
+                <figure class="recipe-photo recipe-photo-portrait">
+                  <img
+                    src="assets/images/Um mundo de Cocktails/Cage Diver, “Seas the Day”.png"
+                    alt="Cage Diver"
+                  />
+                </figure>
+              </section>
+            </section>
+
+            <section class="post-conclusion" aria-label="Conclusão">
+              <div class="post-section-divider" aria-hidden="true">
+                <span>Conclusão</span>
+              </div>
+              <div class="post-conclusion-card">
+                <p>
+                  Como disse no início, este é um daqueles hobbies que vai e volta.
+                </p>
+                <p>
+                  Volta e meia esqueço-me de tudo e tenho de reaprender o que já sabia.
+                  Por isso mesmo, faz-me sentido deixar estas receitas registadas.
+                </p>
+                <p>
+                  E já que estava a escrever, pensei: por que não partilhar? Na melhor
+                  das hipóteses, ajuda alguém a aventurar-se neste mundo. Na pior…
+                  fico com uma ótima cábula pessoal — o que, no fundo, dá muito jeito.
+                </p>
+              </div>
+            </section>
           </div>
 
           <!-- Texto do botao -->
           <a class="back-link" href="index.html#arquivo-posts">Voltar</a>
         </article>
-
-        <aside class="post-decor post-decor-right" aria-hidden="true">
-          <!-- Imagens decorativas da direita: duplicar ou remover qualquer bloco <figure class="polaroid decor-image ..."> -->
-          <figure class="polaroid decor-image tilt-right">
-            <img src="assets/images/post-cover-6.svg" alt="" />
-          </figure>
-          <figure class="polaroid decor-image tilt-soft-left">
-            <img src="assets/images/post-cover-3.svg" alt="" />
-          </figure>
-        </aside>
       </section>
     </main>
 
